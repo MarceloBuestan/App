@@ -89,7 +89,6 @@ public class Pantalla extends javax.swing.JFrame {
         getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 560, -1, -1));
 
         passw.setForeground(new java.awt.Color(204, 204, 204));
-        passw.setText("jPasswordField1");
         passw.setBorder(null);
         passw.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
@@ -166,25 +165,26 @@ public class Pantalla extends javax.swing.JFrame {
 
     private void txcorreoMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_txcorreoMousePressed
         if (txcorreo.getText().equals("Ingrese su correo")){
-        txcorreo.setText("");
-        txcorreo.setForeground(Color.black);
+            txcorreo.setText("");
+            txcorreo.setForeground(Color.black);
         }
         if (String.valueOf(passw.getPassword()).isEmpty()){
-        passw.setText("********");
-        passw.setForeground(Color.gray);
-    }//GEN-LAST:event_txcorreoMousePressed
-    }
-    private void passwMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_passwMousePressed
-        if (String.valueOf(passw.getPassword()).equals("********")) {
-        passw.setText("");
-        passw.setForeground(Color.black);
+            passw.setText("********");
+            passw.setForeground(Color.gray);
         }
-        
-        if (txcorreo.getText().isEmpty()) {
-        txcorreo.setText("Ingrese su correo");
-        txcorreo.setForeground(Color.gray);
+    }//GEN-LAST:event_txcorreoMousePressed
+    
+    private void passwMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_passwMousePressed
+        if (String.valueOf(passw.getPassword()).equals("********")){
+            passw.setText("");
+            passw.setForeground(Color.black);
+        }
+        if (txcorreo.getText().isEmpty()){
+            txcorreo.setText("Ingrese su correo");
+            txcorreo.setForeground(Color.gray);
+        }
     }//GEN-LAST:event_passwMousePressed
-    }
+
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
