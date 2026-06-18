@@ -165,17 +165,24 @@ public class Pantalla extends javax.swing.JFrame {
     }//GEN-LAST:event_txcorreoMouseClicked
 
     private void txcorreoMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_txcorreoMousePressed
+        if (txcorreo.getText().equals("Ingrese su correo")){
         txcorreo.setText("");
         txcorreo.setForeground(Color.black);
+        }
+        if (String.valueOf(passw.getPassword()).isEmpty()){
         passw.setText("********");
         passw.setForeground(Color.gray);
     }//GEN-LAST:event_txcorreoMousePressed
 
     private void passwMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_passwMousePressed
-        txcorreo.setText("Ingrese su correo");
-        txcorreo.setForeground(Color.gray);
+        if (String.valueOf(passw.getPassword()).equals("********")) {
         passw.setText("");
         passw.setForeground(Color.black);
+        }
+        
+        if (txcorreo.getText().isEmpty()) {
+        txcorreo.setText("Ingrese su correo");
+        txcorreo.setForeground(Color.gray);
     }//GEN-LAST:event_passwMousePressed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
