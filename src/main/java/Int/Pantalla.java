@@ -146,7 +146,7 @@ public class Pantalla extends javax.swing.JFrame {
 
     private void F1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_F1ActionPerformed
 
-        F2 Registro = new F2();
+        Registrar Registro = new Registrar();
         Registro.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_F1ActionPerformed

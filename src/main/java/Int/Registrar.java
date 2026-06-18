@@ -8,17 +8,17 @@ package Int;
  *
  * @author marce
  */
-public class F2 extends javax.swing.JFrame {
+public class Registrar extends javax.swing.JFrame {
     
-    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(F2.class.getName());
+    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(Registrar.class.getName());
 
     /**
      * Creates new form F2
      */
-    public F2(){
+    public Registrar(){
     initComponents();
 }
-    public F2(String nombre, String apellido, String correo, String celular) {
+    public Registrar(String nombre, String apellido, String correo, String celular) {
         
         initComponents();
         
@@ -95,7 +95,7 @@ public class F2 extends javax.swing.JFrame {
 
         F1.setText("¡Listo!");
         F1.addActionListener(this::F1ActionPerformed);
-        getContentPane().add(F1, new org.netbeans.lib.awtextra.AbsoluteConstraints(236, 552, -1, -1));
+        getContentPane().add(F1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 540, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -130,7 +130,7 @@ public class F2 extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(() -> new F2().setVisible(true));
+        java.awt.EventQueue.invokeLater(() -> new Registrar().setVisible(true));
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
