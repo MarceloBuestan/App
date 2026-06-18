@@ -43,32 +43,18 @@ public class Pantalla extends javax.swing.JFrame {
         txapellido = new javax.swing.JTextField();
         jLabel6 = new javax.swing.JLabel();
         txcelular = new javax.swing.JTextField();
-        jPanel1 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
+        Correopng = new javax.swing.JLabel();
+        jSeparator2 = new javax.swing.JSeparator();
         jLabel5 = new javax.swing.JLabel();
         F1 = new javax.swing.JButton();
-        txcorreo = new javax.swing.JTextField();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
-        jSeparator1 = new javax.swing.JSeparator();
-        passw = new javax.swing.JPasswordField();
-        jSeparator2 = new javax.swing.JSeparator();
         jLabel10 = new javax.swing.JLabel();
+        passw = new javax.swing.JPasswordField();
+        jLabel1 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
-        jLabel12 = new javax.swing.JLabel();
-        jSeparator3 = new javax.swing.JSeparator();
-        jLabel13 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
-        jButton2 = new javax.swing.JButton();
-        passw1 = new javax.swing.JPasswordField();
-        txcorreo1 = new javax.swing.JTextField();
-        jLabel15 = new javax.swing.JLabel();
-        jLabel16 = new javax.swing.JLabel();
-        jSeparator4 = new javax.swing.JSeparator();
-        jLabel17 = new javax.swing.JLabel();
-        jLabel18 = new javax.swing.JLabel();
-        F2 = new javax.swing.JButton();
+        jSeparator1 = new javax.swing.JSeparator();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        txcorreo = new javax.swing.JTextField();
         jLabel8 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
 
@@ -83,28 +69,54 @@ public class Pantalla extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel1.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 255, 255, 120), 1, true));
-        jPanel1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        Correopng.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Int/Imagen/correop.png"))); // NOI18N
+        getContentPane().add(Correopng, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 310, 30, 20));
 
-        jLabel1.setFont(new java.awt.Font("Franklin Gothic Medium Cond", 3, 24)); // NOI18N
-        jLabel1.setText("Tu nuevo perfil");
-        jLabel1.setVerifyInputWhenFocusTarget(false);
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 40, 190, 40));
-
-        jLabel4.setText("Email");
-        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 190, -1, -1));
+        jSeparator2.setForeground(new java.awt.Color(69, 30, 105));
+        getContentPane().add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 330, 280, 10));
 
         jLabel5.setText("Contraseña:");
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 280, -1, -1));
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 370, -1, -1));
 
         F1.setBackground(new java.awt.Color(69, 30, 105));
         F1.setFont(new java.awt.Font("Yu Gothic", 1, 12)); // NOI18N
         F1.setForeground(new java.awt.Color(255, 255, 255));
         F1.setText("Registrate");
         F1.addActionListener(this::F1ActionPerformed);
-        jPanel1.add(F1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 490, 110, 40));
+        getContentPane().add(F1, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 580, 110, 40));
+
+        jLabel10.setText("¿No tienes cuenta?");
+        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 560, -1, -1));
+
+        passw.setForeground(new java.awt.Color(204, 204, 204));
+        passw.setText("jPasswordField1");
+        passw.setBorder(null);
+        passw.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                passwMousePressed(evt);
+            }
+        });
+        getContentPane().add(passw, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 390, 280, 20));
+
+        jLabel1.setFont(new java.awt.Font("Franklin Gothic Medium Cond", 3, 24)); // NOI18N
+        jLabel1.setText("Tu nuevo perfil");
+        jLabel1.setVerifyInputWhenFocusTarget(false);
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 130, 190, 40));
+
+        jButton1.setText("Iniciar sesión");
+        jButton1.addActionListener(this::jButton1ActionPerformed);
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 450, 110, 40));
+
+        jSeparator1.setForeground(new java.awt.Color(69, 30, 105));
+        getContentPane().add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 410, 280, 10));
+
+        jLabel9.setFont(new java.awt.Font("Franklin Gothic Heavy", 1, 36)); // NOI18N
+        jLabel9.setText("INICIAR SESION");
+        jLabel9.setVerifyInputWhenFocusTarget(false);
+        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 190, 290, 40));
+
+        jLabel4.setText("Email");
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 280, -1, -1));
 
         txcorreo.setFont(new java.awt.Font("Yu Gothic UI Semibold", 2, 14)); // NOI18N
         txcorreo.setForeground(new java.awt.Color(204, 204, 204));
@@ -121,110 +133,7 @@ public class Pantalla extends javax.swing.JFrame {
             }
         });
         txcorreo.addActionListener(this::txcorreoActionPerformed);
-        jPanel1.add(txcorreo, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, 215, 20));
-
-        jLabel9.setFont(new java.awt.Font("Franklin Gothic Heavy", 1, 36)); // NOI18N
-        jLabel9.setText("INICIAR SESION");
-        jLabel9.setVerifyInputWhenFocusTarget(false);
-        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 100, 290, 40));
-
-        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Int/Imagen/correop.png"))); // NOI18N
-        jPanel1.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 220, 30, 20));
-
-        jSeparator1.setForeground(new java.awt.Color(69, 30, 105));
-        jPanel1.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 320, 280, 10));
-
-        passw.setForeground(new java.awt.Color(204, 204, 204));
-        passw.setText("jPasswordField1");
-        passw.setBorder(null);
-        passw.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                passwMousePressed(evt);
-            }
-        });
-        jPanel1.add(passw, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 300, 280, 20));
-
-        jSeparator2.setForeground(new java.awt.Color(69, 30, 105));
-        jPanel1.add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 240, 280, 10));
-
-        jLabel10.setText("¿No tienes cuenta?");
-        jPanel1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 470, -1, -1));
-
-        jButton1.setText("Iniciar sesión");
-        jButton1.addActionListener(this::jButton1ActionPerformed);
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 360, 110, 40));
-
-        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Int/Imagen/sin bordes.png"))); // NOI18N
-        jPanel1.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -10, 410, 580));
-
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 90, 390, 10));
-
-        jSeparator3.setForeground(new java.awt.Color(69, 30, 105));
-        getContentPane().add(jSeparator3, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 410, 280, 10));
-
-        jLabel13.setText("Contraseña:");
-        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 370, -1, -1));
-
-        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Int/Imagen/correop.png"))); // NOI18N
-        getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 310, 30, 20));
-
-        jButton2.setText("Iniciar sesión");
-        jButton2.addActionListener(this::jButton2ActionPerformed);
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 450, 110, 40));
-
-        passw1.setForeground(new java.awt.Color(204, 204, 204));
-        passw1.setText("jPasswordField1");
-        passw1.setBorder(null);
-        passw1.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                passw1MousePressed(evt);
-            }
-        });
-        getContentPane().add(passw1, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 390, 280, 20));
-
-        txcorreo1.setBackground(null);
-        txcorreo1.setFont(new java.awt.Font("Yu Gothic UI Semibold", 2, 14)); // NOI18N
-        txcorreo1.setForeground(new java.awt.Color(204, 204, 204));
-        txcorreo1.setText("Ingrese su correo");
-        txcorreo1.setToolTipText("");
-        txcorreo1.setBorder(null);
-        txcorreo1.setCaretColor(new java.awt.Color(255, 255, 255));
-        txcorreo1.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                txcorreo1MouseClicked(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                txcorreo1MousePressed(evt);
-            }
-        });
-        txcorreo1.addActionListener(this::txcorreo1ActionPerformed);
-        getContentPane().add(txcorreo1, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 310, 215, 20));
-
-        jLabel15.setText("Email");
-        getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 280, -1, -1));
-
-        jLabel16.setText("¿No tienes cuenta?");
-        getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 560, -1, -1));
-
-        jSeparator4.setForeground(new java.awt.Color(69, 30, 105));
-        getContentPane().add(jSeparator4, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 330, 280, 10));
-
-        jLabel17.setFont(new java.awt.Font("Franklin Gothic Medium Cond", 3, 24)); // NOI18N
-        jLabel17.setText("Tu nuevo perfil");
-        jLabel17.setVerifyInputWhenFocusTarget(false);
-        getContentPane().add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 130, 190, 40));
-
-        jLabel18.setFont(new java.awt.Font("Franklin Gothic Heavy", 1, 36)); // NOI18N
-        jLabel18.setText("INICIAR SESION");
-        jLabel18.setVerifyInputWhenFocusTarget(false);
-        getContentPane().add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 190, 290, 40));
-
-        F2.setBackground(new java.awt.Color(69, 30, 105));
-        F2.setFont(new java.awt.Font("Yu Gothic", 1, 12)); // NOI18N
-        F2.setForeground(new java.awt.Color(255, 255, 255));
-        F2.setText("Registrate");
-        F2.addActionListener(this::F2ActionPerformed);
-        getContentPane().add(F2, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 580, 110, 40));
+        getContentPane().add(txcorreo, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 310, 215, -1));
 
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Int/Imagen/sin bordes.png"))); // NOI18N
         getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 80, -1, -1));
@@ -272,33 +181,7 @@ public class Pantalla extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
-
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton2ActionPerformed
-
-    private void passw1MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_passw1MousePressed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_passw1MousePressed
-
-    private void txcorreo1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_txcorreo1MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txcorreo1MouseClicked
-
-    private void txcorreo1MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_txcorreo1MousePressed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txcorreo1MousePressed
-
-    private void txcorreo1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txcorreo1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txcorreo1ActionPerformed
-
-    private void F2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_F2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_F2ActionPerformed
-
-    
-    /**
+/**
      * @param args the command line arguments
      */
     public static void main(String args[]) {
@@ -325,20 +208,11 @@ public class Pantalla extends javax.swing.JFrame {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel Correopng;
     private javax.swing.JButton F1;
-    private javax.swing.JButton F2;
     private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel17;
-    private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
@@ -347,17 +221,12 @@ public class Pantalla extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
-    private javax.swing.JPanel jPanel1;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
-    private javax.swing.JSeparator jSeparator3;
-    private javax.swing.JSeparator jSeparator4;
     private javax.swing.JPasswordField passw;
-    private javax.swing.JPasswordField passw1;
     private javax.swing.JTextField txapellido;
     private javax.swing.JTextField txcelular;
     private javax.swing.JTextField txcorreo;
-    private javax.swing.JTextField txcorreo1;
     private javax.swing.JTextField txnombre;
     // End of variables declaration//GEN-END:variables
 }
