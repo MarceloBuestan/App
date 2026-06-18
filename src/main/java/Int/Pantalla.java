@@ -124,7 +124,6 @@ public class Pantalla extends javax.swing.JFrame {
         txcorreo.setToolTipText("");
         txcorreo.setBorder(null);
         txcorreo.setCaretColor(new java.awt.Color(255, 255, 255));
-        txcorreo.setEnabled(false);
         txcorreo.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 txcorreoMouseClicked(evt);
