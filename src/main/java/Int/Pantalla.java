@@ -173,7 +173,7 @@ public class Pantalla extends javax.swing.JFrame {
         passw.setText("********");
         passw.setForeground(Color.gray);
     }//GEN-LAST:event_txcorreoMousePressed
-
+    }
     private void passwMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_passwMousePressed
         if (String.valueOf(passw.getPassword()).equals("********")) {
         passw.setText("");
@@ -184,7 +184,7 @@ public class Pantalla extends javax.swing.JFrame {
         txcorreo.setText("Ingrese su correo");
         txcorreo.setForeground(Color.gray);
     }//GEN-LAST:event_passwMousePressed
-
+    }
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
