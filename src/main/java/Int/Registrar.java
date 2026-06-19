@@ -44,6 +44,7 @@ public class Registrar extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         txnombre = new javax.swing.JTextField();
         txapellido = new javax.swing.JTextField();
@@ -58,44 +59,58 @@ public class Registrar extends javax.swing.JFrame {
         F1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setText("REGISTRO DE USUARIO");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 6, -1, 71));
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 10, -1, 71));
 
         txnombre.setEditable(false);
-        getContentPane().add(txnombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 105, 215, -1));
+        jPanel1.add(txnombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 105, 215, -1));
 
         txapellido.setEditable(false);
-        getContentPane().add(txapellido, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 201, 215, -1));
+        jPanel1.add(txapellido, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 201, 215, -1));
 
         jLabel3.setText("Apellido:");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 179, -1, -1));
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 179, -1, -1));
 
         jLabel2.setText("Nombre:");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 83, -1, -1));
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 83, -1, -1));
 
         txcorreo.setEditable(false);
-        getContentPane().add(txcorreo, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 297, 215, -1));
+        jPanel1.add(txcorreo, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 297, 215, -1));
 
         jLabel4.setText("Correo:");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 275, -1, -1));
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 275, -1, -1));
 
         txpss.setEditable(false);
-        getContentPane().add(txpss, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 393, 215, -1));
+        jPanel1.add(txpss, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 393, 215, -1));
 
         jLabel5.setText("Contraseña:");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 371, -1, -1));
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 371, -1, -1));
 
         jLabel6.setText("Celular:");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 467, 63, -1));
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 467, 63, -1));
 
         txcelular.setEditable(false);
-        getContentPane().add(txcelular, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 489, 215, -1));
+        jPanel1.add(txcelular, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 489, 215, -1));
 
         F1.setText("¡Listo!");
         F1.addActionListener(this::F1ActionPerformed);
-        getContentPane().add(F1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 540, -1, -1));
+        jPanel1.add(F1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 540, -1, -1));
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 424, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 610, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -141,6 +156,7 @@ public class Registrar extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JPanel jPanel1;
     private javax.swing.JTextField txapellido;
     private javax.swing.JTextField txcelular;
     private javax.swing.JTextField txcorreo;

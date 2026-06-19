@@ -34,35 +34,70 @@ public class PerfilUsuario extends javax.swing.JFrame {
         edadtx = new javax.swing.JTextField();
         género = new javax.swing.JLabel();
         génerotx = new javax.swing.JTextField();
-        Ubicación = new javax.swing.JLabel();
+        Altura = new javax.swing.JLabel();
+        alturatx = new javax.swing.JTextField();
+        Ubicación1 = new javax.swing.JLabel();
         Ubicacióntx = new javax.swing.JTextField();
+        jLabel1 = new javax.swing.JLabel();
+        pesotx = new javax.swing.JTextField();
+        jLabel2 = new javax.swing.JLabel();
+        discapacidadtx = new javax.swing.JComboBox<>();
+        jLabel3 = new javax.swing.JLabel();
+        jComboBox1 = new javax.swing.JComboBox<>();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         sobreti.setText("Sobre ti");
-        jPanel1.add(sobreti, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 50, 50, 20));
+        jPanel1.add(sobreti, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 90, 50, 20));
 
         edad.setText("Edad");
-        jPanel1.add(edad, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, -1, -1));
+        jPanel1.add(edad, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 120, -1, -1));
 
         edadtx.setText("jTextField1");
-        jPanel1.add(edadtx, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 100, -1, -1));
+        jPanel1.add(edadtx, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 140, -1, -1));
 
         género.setText("Género");
-        jPanel1.add(género, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 130, -1, -1));
+        jPanel1.add(género, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 170, -1, -1));
 
         génerotx.setText("jTextField1");
         génerotx.addActionListener(this::génerotxActionPerformed);
-        jPanel1.add(génerotx, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 150, -1, -1));
+        jPanel1.add(génerotx, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 190, -1, -1));
 
-        Ubicación.setText("Ubicación");
-        jPanel1.add(Ubicación, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, -1, -1));
+        Altura.setText("Altura");
+        jPanel1.add(Altura, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
+
+        alturatx.setText("jTextField1");
+        alturatx.addActionListener(this::alturatxActionPerformed);
+        jPanel1.add(alturatx, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 290, -1, -1));
+
+        Ubicación1.setText("Ubicación");
+        jPanel1.add(Ubicación1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 220, -1, -1));
 
         Ubicacióntx.setText("jTextField1");
         Ubicacióntx.addActionListener(this::UbicacióntxActionPerformed);
-        jPanel1.add(Ubicacióntx, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 200, -1, -1));
+        jPanel1.add(Ubicacióntx, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 240, -1, -1));
+
+        jLabel1.setText("Peso");
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 320, 40, 20));
+
+        pesotx.setText("jTextField1");
+        pesotx.addActionListener(this::pesotxActionPerformed);
+        jPanel1.add(pesotx, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 340, -1, -1));
+
+        jLabel2.setText("Discapacidad");
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 370, -1, -1));
+
+        discapacidadtx.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Si", "No" }));
+        discapacidadtx.addActionListener(this::discapacidadtxActionPerformed);
+        jPanel1.add(discapacidadtx, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 390, 70, 30));
+
+        jLabel3.setText("Situación laboral");
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 430, -1, -1));
+
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Solo estudio", "Estudio y trabajo", "Trabajo a tiempo completo", "Trabajo a medio tiempo" }));
+        jPanel1.add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 460, 110, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -84,13 +119,25 @@ public class PerfilUsuario extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void génerotxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_génerotxActionPerformed
+    private void discapacidadtxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_discapacidadtxActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_génerotxActionPerformed
+    }//GEN-LAST:event_discapacidadtxActionPerformed
+
+    private void pesotxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pesotxActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_pesotxActionPerformed
 
     private void UbicacióntxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UbicacióntxActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_UbicacióntxActionPerformed
+
+    private void alturatxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_alturatxActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_alturatxActionPerformed
+
+    private void génerotxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_génerotxActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_génerotxActionPerformed
 
     /**
      * @param args the command line arguments
@@ -118,13 +165,21 @@ public class PerfilUsuario extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel Ubicación;
+    private javax.swing.JLabel Altura;
+    private javax.swing.JLabel Ubicación1;
     private javax.swing.JTextField Ubicacióntx;
+    private javax.swing.JTextField alturatx;
+    private javax.swing.JComboBox<String> discapacidadtx;
     private javax.swing.JLabel edad;
     private javax.swing.JTextField edadtx;
     private javax.swing.JLabel género;
     private javax.swing.JTextField génerotx;
+    private javax.swing.JComboBox<String> jComboBox1;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JTextField pesotx;
     private javax.swing.JLabel sobreti;
     // End of variables declaration//GEN-END:variables
 }
