@@ -18,22 +18,7 @@ public class Registrar extends javax.swing.JFrame {
     public Registrar(){
     initComponents();
 }
-    public Registrar(String nombre, String apellido, String correo, String celular) {
-        
-        initComponents();
-        
-        txnombre.setText(nombre);
-        txapellido.setText(apellido);
-        txcorreo.setText(correo);
-        
-        txcelular.setText(celular);
-        
-        txnombre.setEditable(false);
-        txapellido.setEditable(false);
-        txcorreo.setEditable(false);
-        txcelular.setEditable(false);
-       
-    }
+
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -64,11 +49,7 @@ public class Registrar extends javax.swing.JFrame {
 
         jLabel1.setText("REGISTRO DE USUARIO");
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 10, -1, 71));
-
-        txnombre.setEditable(false);
         jPanel1.add(txnombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 105, 215, -1));
-
-        txapellido.setEditable(false);
         jPanel1.add(txapellido, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 201, 215, -1));
 
         jLabel3.setText("Apellido:");
@@ -76,14 +57,10 @@ public class Registrar extends javax.swing.JFrame {
 
         jLabel2.setText("Nombre:");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 83, -1, -1));
-
-        txcorreo.setEditable(false);
         jPanel1.add(txcorreo, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 297, 215, -1));
 
         jLabel4.setText("Correo:");
         jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 275, -1, -1));
-
-        txpss.setEditable(false);
         jPanel1.add(txpss, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 393, 215, -1));
 
         jLabel5.setText("Contraseña:");
@@ -91,8 +68,6 @@ public class Registrar extends javax.swing.JFrame {
 
         jLabel6.setText("Celular:");
         jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 467, 63, -1));
-
-        txcelular.setEditable(false);
         jPanel1.add(txcelular, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 489, 215, -1));
 
         F1.setText("¡Listo!");
