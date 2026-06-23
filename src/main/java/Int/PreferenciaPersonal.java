@@ -30,56 +30,56 @@ public class PreferenciaPersonal extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
+        géneroMusical = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
-        jCheckBox1 = new javax.swing.JCheckBox();
-        jCheckBox2 = new javax.swing.JCheckBox();
-        jCheckBox3 = new javax.swing.JCheckBox();
-        jCheckBox4 = new javax.swing.JCheckBox();
-        jCheckBox5 = new javax.swing.JCheckBox();
-        jCheckBox6 = new javax.swing.JCheckBox();
-        jCheckBox7 = new javax.swing.JCheckBox();
-        jCheckBox8 = new javax.swing.JCheckBox();
-        jCheckBox9 = new javax.swing.JCheckBox();
-        jCheckBox10 = new javax.swing.JCheckBox();
-        jCheckBox11 = new javax.swing.JCheckBox();
-        jCheckBox12 = new javax.swing.JCheckBox();
-        jCheckBox13 = new javax.swing.JCheckBox();
-        jCheckBox14 = new javax.swing.JCheckBox();
-        jCheckBox15 = new javax.swing.JCheckBox();
-        jCheckBox16 = new javax.swing.JCheckBox();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jTextField2 = new javax.swing.JTextField();
-        jLabel5 = new javax.swing.JLabel();
-        jComboBox1 = new javax.swing.JComboBox<>();
-        jLabel6 = new javax.swing.JLabel();
-        jComboBox2 = new javax.swing.JComboBox<>();
-        jLabel7 = new javax.swing.JLabel();
-        jComboBox3 = new javax.swing.JComboBox<>();
-        jLabel8 = new javax.swing.JLabel();
-        jComboBox4 = new javax.swing.JComboBox<>();
-        jLabel9 = new javax.swing.JLabel();
-        jComboBox5 = new javax.swing.JComboBox<>();
-        jLabel10 = new javax.swing.JLabel();
-        jTextField3 = new javax.swing.JTextField();
-        jTextField1 = new javax.swing.JTextField();
-        jLabel11 = new javax.swing.JLabel();
-        jComboBox6 = new javax.swing.JComboBox<>();
-        jPanel3 = new javax.swing.JPanel();
-        jCheckBox17 = new javax.swing.JCheckBox();
-        jCheckBox18 = new javax.swing.JCheckBox();
-        jCheckBox19 = new javax.swing.JCheckBox();
-        jCheckBox20 = new javax.swing.JCheckBox();
-        jCheckBox21 = new javax.swing.JCheckBox();
-        jCheckBox22 = new javax.swing.JCheckBox();
-        jCheckBox23 = new javax.swing.JCheckBox();
-        jCheckBox24 = new javax.swing.JCheckBox();
-        jCheckBox25 = new javax.swing.JCheckBox();
-        jCheckBox26 = new javax.swing.JCheckBox();
-        jCheckBox27 = new javax.swing.JCheckBox();
-        jCheckBox28 = new javax.swing.JCheckBox();
-        jLabel12 = new javax.swing.JLabel();
+        salsatx = new javax.swing.JCheckBox();
+        clasicatx = new javax.swing.JCheckBox();
+        countrytx = new javax.swing.JCheckBox();
+        electrtx = new javax.swing.JCheckBox();
+        hiphoptx = new javax.swing.JCheckBox();
+        jazztx = new javax.swing.JCheckBox();
+        poptx = new javax.swing.JCheckBox();
+        punktx = new javax.swing.JCheckBox();
+        raeggtx = new javax.swing.JCheckBox();
+        rocktx = new javax.swing.JCheckBox();
+        raptx = new javax.swing.JCheckBox();
+        traptx = new javax.swing.JCheckBox();
+        bachatatx = new javax.swing.JCheckBox();
+        cumbiatx = new javax.swing.JCheckBox();
+        vallenatotx = new javax.swing.JCheckBox();
+        viejaescuelatx = new javax.swing.JCheckBox();
+        nocomida = new javax.swing.JLabel();
+        comida = new javax.swing.JLabel();
+        nocomidatx = new javax.swing.JTextField();
+        restriccion = new javax.swing.JLabel();
+        restricciontx = new javax.swing.JComboBox<>();
+        actividad = new javax.swing.JLabel();
+        actividadtx = new javax.swing.JComboBox<>();
+        Fuma = new javax.swing.JLabel();
+        mascotastx = new javax.swing.JComboBox<>();
+        alcohol = new javax.swing.JLabel();
+        alcoholtx = new javax.swing.JComboBox<>();
+        gustamascotas = new javax.swing.JLabel();
+        fumatx = new javax.swing.JComboBox<>();
+        mascota = new javax.swing.JLabel();
+        comidatx = new javax.swing.JTextField();
+        animalfavoritotx = new javax.swing.JTextField();
+        animalfavorito = new javax.swing.JLabel();
+        gustamascotastx = new javax.swing.JComboBox<>();
+        tiposdeactividades = new javax.swing.JPanel();
+        gymtx = new javax.swing.JCheckBox();
+        viajartx = new javax.swing.JCheckBox();
+        gamestx = new javax.swing.JCheckBox();
+        deportestx = new javax.swing.JCheckBox();
+        artetx = new javax.swing.JCheckBox();
+        tecntx = new javax.swing.JCheckBox();
+        musictx = new javax.swing.JCheckBox();
+        estudiotx = new javax.swing.JCheckBox();
+        trabajotx = new javax.swing.JCheckBox();
+        peliculastx = new javax.swing.JCheckBox();
+        seriestx = new javax.swing.JCheckBox();
+        cinetx = new javax.swing.JCheckBox();
+        actividades = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -88,157 +88,157 @@ public class PreferenciaPersonal extends javax.swing.JFrame {
         jLabel1.setText("PREFERENCIA PERSONAL");
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 20, -1, -1));
 
-        jLabel2.setText("Favorito género musical");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 90, -1, -1));
+        géneroMusical.setText("Favorito género musical");
+        jPanel1.add(géneroMusical, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 90, -1, -1));
 
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jCheckBox1.setText("Salsa");
-        jPanel2.add(jCheckBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 90, -1, -1));
+        salsatx.setText("Salsa");
+        jPanel2.add(salsatx, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 90, -1, -1));
 
-        jCheckBox2.setText("Clásica");
-        jPanel2.add(jCheckBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
+        clasicatx.setText("Clásica");
+        jPanel2.add(clasicatx, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
 
-        jCheckBox3.setText("Country");
-        jPanel2.add(jCheckBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 30, -1, -1));
+        countrytx.setText("Country");
+        jPanel2.add(countrytx, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 30, -1, -1));
 
-        jCheckBox4.setText("Electrónica");
-        jPanel2.add(jCheckBox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 50, -1, -1));
+        electrtx.setText("Electrónica");
+        jPanel2.add(electrtx, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 50, -1, -1));
 
-        jCheckBox5.setText("Hip Hop");
-        jPanel2.add(jCheckBox5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, -1, -1));
+        hiphoptx.setText("Hip Hop");
+        jPanel2.add(hiphoptx, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, -1, -1));
 
-        jCheckBox6.setText("Jazz");
-        jPanel2.add(jCheckBox6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 90, -1, -1));
+        jazztx.setText("Jazz");
+        jPanel2.add(jazztx, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 90, -1, -1));
 
-        jCheckBox7.setText("Pop");
-        jPanel2.add(jCheckBox7, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 10, -1, -1));
+        poptx.setText("Pop");
+        jPanel2.add(poptx, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 10, -1, -1));
 
-        jCheckBox8.setText("Punk");
-        jPanel2.add(jCheckBox8, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 30, -1, -1));
+        punktx.setText("Punk");
+        jPanel2.add(punktx, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 30, -1, -1));
 
-        jCheckBox9.setText("Raeggetón");
-        jPanel2.add(jCheckBox9, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 50, -1, -1));
+        raeggtx.setText("Raeggetón");
+        jPanel2.add(raeggtx, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 50, -1, -1));
 
-        jCheckBox10.setText("Rock");
-        jPanel2.add(jCheckBox10, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 70, -1, -1));
+        rocktx.setText("Rock");
+        jPanel2.add(rocktx, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 70, -1, -1));
 
-        jCheckBox11.setText("Rap");
-        jPanel2.add(jCheckBox11, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 90, -1, -1));
+        raptx.setText("Rap");
+        jPanel2.add(raptx, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 90, -1, -1));
 
-        jCheckBox12.setText("Trap");
-        jPanel2.add(jCheckBox12, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 10, -1, -1));
+        traptx.setText("Trap");
+        jPanel2.add(traptx, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 10, -1, -1));
 
-        jCheckBox13.setText("Bachata");
-        jPanel2.add(jCheckBox13, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 30, -1, -1));
+        bachatatx.setText("Bachata");
+        jPanel2.add(bachatatx, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 30, -1, -1));
 
-        jCheckBox14.setText("Cumbia");
-        jPanel2.add(jCheckBox14, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 50, -1, -1));
+        cumbiatx.setText("Cumbia");
+        jPanel2.add(cumbiatx, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 50, -1, -1));
 
-        jCheckBox15.setText("Vallenato");
-        jPanel2.add(jCheckBox15, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 70, -1, -1));
+        vallenatotx.setText("Vallenato");
+        jPanel2.add(vallenatotx, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 70, -1, -1));
 
-        jCheckBox16.setText("Vieja escuela");
-        jPanel2.add(jCheckBox16, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 50, -1, -1));
+        viejaescuelatx.setText("Vieja escuela");
+        jPanel2.add(viejaescuelatx, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 50, -1, -1));
 
         jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 40, 370, 120));
 
-        jLabel3.setText("Comida que no le guste");
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 240, -1, -1));
+        nocomida.setText("Comida que no le guste");
+        jPanel1.add(nocomida, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 240, -1, -1));
 
-        jLabel4.setText("Comida favorita");
-        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 190, -1, -1));
+        comida.setText("Comida favorita");
+        jPanel1.add(comida, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 190, -1, -1));
 
-        jTextField2.setText("jTextField2");
-        jPanel1.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 240, -1, -1));
+        nocomidatx.setText("jTextField2");
+        jPanel1.add(nocomidatx, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 240, -1, -1));
 
-        jLabel5.setText("Restricción alimentaria");
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 280, -1, -1));
+        restriccion.setText("Restricción alimentaria");
+        jPanel1.add(restriccion, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 280, -1, -1));
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Omnívoro", "Vegetariano", "Vegano", "Otro" }));
-        jPanel1.add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 280, -1, -1));
+        restricciontx.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Omnívoro", "Vegetariano", "Vegano", "Otro" }));
+        jPanel1.add(restricciontx, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 280, -1, -1));
 
-        jLabel6.setText("Nivel de actividad");
-        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 400, -1, -1));
+        actividad.setText("Nivel de actividad");
+        jPanel1.add(actividad, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 400, -1, -1));
 
-        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Sedentario", "Activo", "Muy activo" }));
-        jPanel1.add(jComboBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 400, -1, -1));
+        actividadtx.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Sedentario", "Activo", "Muy activo" }));
+        jPanel1.add(actividadtx, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 400, -1, -1));
 
-        jLabel7.setText("¿Fuma?");
-        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 330, -1, -1));
+        Fuma.setText("¿Fuma?");
+        jPanel1.add(Fuma, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 330, -1, -1));
 
-        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Si", "No" }));
-        jPanel1.add(jComboBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 190, -1, -1));
+        mascotastx.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Si", "No" }));
+        jPanel1.add(mascotastx, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 190, -1, -1));
 
-        jLabel8.setText("¿Bebe alcohol?");
-        jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 370, -1, -1));
+        alcohol.setText("¿Bebe alcohol?");
+        jPanel1.add(alcohol, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 370, -1, -1));
 
-        jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Si", "No", "Ocasional" }));
-        jPanel1.add(jComboBox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 370, -1, -1));
+        alcoholtx.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Si", "No", "Ocasional" }));
+        jPanel1.add(alcoholtx, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 370, -1, -1));
 
-        jLabel9.setText("¿Le gusta las mascotas?");
-        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 270, -1, -1));
+        gustamascotas.setText("¿Le gusta las mascotas?");
+        jPanel1.add(gustamascotas, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 270, -1, -1));
 
-        jComboBox5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Si", "No", "Ocasional" }));
-        jPanel1.add(jComboBox5, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 330, -1, -1));
+        fumatx.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Si", "No", "Ocasional" }));
+        jPanel1.add(fumatx, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 330, -1, -1));
 
-        jLabel10.setText("¿Tiene mascotas?");
-        jPanel1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 190, -1, -1));
+        mascota.setText("¿Tiene mascotas?");
+        jPanel1.add(mascota, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 190, -1, -1));
 
-        jTextField3.setText("jTextField1");
-        jPanel1.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 190, -1, -1));
+        comidatx.setText("jTextField1");
+        jPanel1.add(comidatx, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 190, -1, -1));
 
-        jTextField1.setText("jTextField1");
-        jPanel1.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 230, -1, -1));
+        animalfavoritotx.setText("jTextField1");
+        jPanel1.add(animalfavoritotx, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 230, -1, -1));
 
-        jLabel11.setText("Animal favorito");
-        jPanel1.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 230, -1, -1));
+        animalfavorito.setText("Animal favorito");
+        jPanel1.add(animalfavorito, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 230, -1, -1));
 
-        jComboBox6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Si", "No" }));
-        jPanel1.add(jComboBox6, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 270, -1, -1));
+        gustamascotastx.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Si", "No" }));
+        jPanel1.add(gustamascotastx, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 270, -1, -1));
 
-        jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        tiposdeactividades.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jCheckBox17.setText("Gym");
-        jPanel3.add(jCheckBox17, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 110, -1, -1));
+        gymtx.setText("Gym");
+        tiposdeactividades.add(gymtx, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 110, -1, -1));
 
-        jCheckBox18.setText("Viajar");
-        jPanel3.add(jCheckBox18, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
+        viajartx.setText("Viajar");
+        tiposdeactividades.add(viajartx, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
 
-        jCheckBox19.setText("Videojuegos");
-        jPanel3.add(jCheckBox19, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 30, -1, -1));
+        gamestx.setText("Videojuegos");
+        tiposdeactividades.add(gamestx, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 30, -1, -1));
 
-        jCheckBox20.setText("Deportes");
-        jPanel3.add(jCheckBox20, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 50, -1, -1));
+        deportestx.setText("Deportes");
+        tiposdeactividades.add(deportestx, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 50, -1, -1));
 
-        jCheckBox21.setText("Arte");
-        jPanel3.add(jCheckBox21, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, -1, -1));
+        artetx.setText("Arte");
+        tiposdeactividades.add(artetx, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, -1, -1));
 
-        jCheckBox22.setText("Tecnología");
-        jPanel3.add(jCheckBox22, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 90, -1, -1));
+        tecntx.setText("Tecnología");
+        tiposdeactividades.add(tecntx, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 90, -1, -1));
 
-        jCheckBox23.setText("Música");
-        jPanel3.add(jCheckBox23, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, -1, -1));
+        musictx.setText("Música");
+        tiposdeactividades.add(musictx, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, -1, -1));
 
-        jCheckBox24.setText("Estudio");
-        jPanel3.add(jCheckBox24, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 10, -1, -1));
+        estudiotx.setText("Estudio");
+        tiposdeactividades.add(estudiotx, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 10, -1, -1));
 
-        jCheckBox25.setText("Trabajo");
-        jPanel3.add(jCheckBox25, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 30, -1, -1));
+        trabajotx.setText("Trabajo");
+        tiposdeactividades.add(trabajotx, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 30, -1, -1));
 
-        jCheckBox26.setText("Películas");
-        jPanel3.add(jCheckBox26, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 50, -1, -1));
+        peliculastx.setText("Películas");
+        tiposdeactividades.add(peliculastx, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 50, -1, -1));
 
-        jCheckBox27.setText("Series");
-        jPanel3.add(jCheckBox27, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 70, -1, -1));
+        seriestx.setText("Series");
+        tiposdeactividades.add(seriestx, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 70, -1, -1));
 
-        jCheckBox28.setText("Cine");
-        jPanel3.add(jCheckBox28, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 90, -1, -1));
+        cinetx.setText("Cine");
+        tiposdeactividades.add(cinetx, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 90, -1, -1));
 
-        jPanel1.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 350, 210, 150));
+        jPanel1.add(tiposdeactividades, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 350, 210, 150));
 
-        jLabel12.setText("¿Qué actividades te interesan?");
-        jPanel1.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 400, -1, -1));
+        actividades.setText("¿Qué actividades te interesan?");
+        jPanel1.add(actividades, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 400, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -280,57 +280,57 @@ public class PreferenciaPersonal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JCheckBox jCheckBox1;
-    private javax.swing.JCheckBox jCheckBox10;
-    private javax.swing.JCheckBox jCheckBox11;
-    private javax.swing.JCheckBox jCheckBox12;
-    private javax.swing.JCheckBox jCheckBox13;
-    private javax.swing.JCheckBox jCheckBox14;
-    private javax.swing.JCheckBox jCheckBox15;
-    private javax.swing.JCheckBox jCheckBox16;
-    private javax.swing.JCheckBox jCheckBox17;
-    private javax.swing.JCheckBox jCheckBox18;
-    private javax.swing.JCheckBox jCheckBox19;
-    private javax.swing.JCheckBox jCheckBox2;
-    private javax.swing.JCheckBox jCheckBox20;
-    private javax.swing.JCheckBox jCheckBox21;
-    private javax.swing.JCheckBox jCheckBox22;
-    private javax.swing.JCheckBox jCheckBox23;
-    private javax.swing.JCheckBox jCheckBox24;
-    private javax.swing.JCheckBox jCheckBox25;
-    private javax.swing.JCheckBox jCheckBox26;
-    private javax.swing.JCheckBox jCheckBox27;
-    private javax.swing.JCheckBox jCheckBox28;
-    private javax.swing.JCheckBox jCheckBox3;
-    private javax.swing.JCheckBox jCheckBox4;
-    private javax.swing.JCheckBox jCheckBox5;
-    private javax.swing.JCheckBox jCheckBox6;
-    private javax.swing.JCheckBox jCheckBox7;
-    private javax.swing.JCheckBox jCheckBox8;
-    private javax.swing.JCheckBox jCheckBox9;
-    private javax.swing.JComboBox<String> jComboBox1;
-    private javax.swing.JComboBox<String> jComboBox2;
-    private javax.swing.JComboBox<String> jComboBox3;
-    private javax.swing.JComboBox<String> jComboBox4;
-    private javax.swing.JComboBox<String> jComboBox5;
-    private javax.swing.JComboBox<String> jComboBox6;
+    private javax.swing.JLabel Fuma;
+    private javax.swing.JLabel actividad;
+    private javax.swing.JLabel actividades;
+    private javax.swing.JComboBox<String> actividadtx;
+    private javax.swing.JLabel alcohol;
+    private javax.swing.JComboBox<String> alcoholtx;
+    private javax.swing.JLabel animalfavorito;
+    private javax.swing.JTextField animalfavoritotx;
+    private javax.swing.JCheckBox artetx;
+    private javax.swing.JCheckBox bachatatx;
+    private javax.swing.JCheckBox cinetx;
+    private javax.swing.JCheckBox clasicatx;
+    private javax.swing.JLabel comida;
+    private javax.swing.JTextField comidatx;
+    private javax.swing.JCheckBox countrytx;
+    private javax.swing.JCheckBox cumbiatx;
+    private javax.swing.JCheckBox deportestx;
+    private javax.swing.JCheckBox electrtx;
+    private javax.swing.JCheckBox estudiotx;
+    private javax.swing.JComboBox<String> fumatx;
+    private javax.swing.JCheckBox gamestx;
+    private javax.swing.JLabel gustamascotas;
+    private javax.swing.JComboBox<String> gustamascotastx;
+    private javax.swing.JCheckBox gymtx;
+    private javax.swing.JLabel géneroMusical;
+    private javax.swing.JCheckBox hiphoptx;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
-    private javax.swing.JPanel jPanel3;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTextField2;
-    private javax.swing.JTextField jTextField3;
+    private javax.swing.JCheckBox jazztx;
+    private javax.swing.JLabel mascota;
+    private javax.swing.JComboBox<String> mascotastx;
+    private javax.swing.JCheckBox musictx;
+    private javax.swing.JLabel nocomida;
+    private javax.swing.JTextField nocomidatx;
+    private javax.swing.JCheckBox peliculastx;
+    private javax.swing.JCheckBox poptx;
+    private javax.swing.JCheckBox punktx;
+    private javax.swing.JCheckBox raeggtx;
+    private javax.swing.JCheckBox raptx;
+    private javax.swing.JLabel restriccion;
+    private javax.swing.JComboBox<String> restricciontx;
+    private javax.swing.JCheckBox rocktx;
+    private javax.swing.JCheckBox salsatx;
+    private javax.swing.JCheckBox seriestx;
+    private javax.swing.JCheckBox tecntx;
+    private javax.swing.JPanel tiposdeactividades;
+    private javax.swing.JCheckBox trabajotx;
+    private javax.swing.JCheckBox traptx;
+    private javax.swing.JCheckBox vallenatotx;
+    private javax.swing.JCheckBox viajartx;
+    private javax.swing.JCheckBox viejaescuelatx;
     // End of variables declaration//GEN-END:variables
 }

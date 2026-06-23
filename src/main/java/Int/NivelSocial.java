@@ -18,12 +18,12 @@ public class NivelSocial extends javax.swing.JFrame {
     public NivelSocial() {
         initComponents();
         NivelSocial.setMinimum(1);
-NivelSocial.setMaximum(5);
-NivelSocial.setValue(3); // Valor inicial
+        NivelSocial.setMaximum(5);
+        NivelSocial.setValue(3); // Valor inicial
 
-NivelSocial.setMajorTickSpacing(1);
-NivelSocial.setPaintTicks(true);
-NivelSocial.setPaintLabels(true);
+        NivelSocial.setMajorTickSpacing(1);
+        NivelSocial.setPaintTicks(true);
+        NivelSocial.setPaintLabels(true);
     }
 
     /**
@@ -37,52 +37,46 @@ NivelSocial.setPaintLabels(true);
 
         jPanel2 = new javax.swing.JPanel();
         lbSociabilidad = new javax.swing.JLabel();
-        describirías = new javax.swing.JLabel();
         NivelSocial = new javax.swing.JSlider();
-        jComboBox1 = new javax.swing.JComboBox<>();
-        conversación = new javax.swing.JLabel();
-        jComboBox2 = new javax.swing.JComboBox<>();
-        jLabel4 = new javax.swing.JLabel();
-        jComboBox3 = new javax.swing.JComboBox<>();
-        jLabel5 = new javax.swing.JLabel();
-        jCheckBox1 = new javax.swing.JCheckBox();
-        Divertido = new javax.swing.JCheckBox();
-        jCheckBox3 = new javax.swing.JCheckBox();
-        jCheckBox4 = new javax.swing.JCheckBox();
-        jCheckBox5 = new javax.swing.JCheckBox();
+        Conversación = new javax.swing.JLabel();
+        conversacióntx = new javax.swing.JComboBox<>();
+        Comunicacion = new javax.swing.JLabel();
+        comunicaciontx = new javax.swing.JComboBox<>();
+        relacion = new javax.swing.JLabel();
+        Detallistatx = new javax.swing.JCheckBox();
+        Divertidotx = new javax.swing.JCheckBox();
+        comprensivotx = new javax.swing.JCheckBox();
+        Tranquilotx = new javax.swing.JCheckBox();
+        Espontáneotx = new javax.swing.JCheckBox();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         lbSociabilidad.setText("Nivel de sociabilidad");
 
-        describirías.setText("¿Cómo te describirías?");
-
         NivelSocial.setMaximum(5);
         NivelSocial.setMinimum(1);
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Extrovertido(a)", "Introvertido(a)", "Ambivertido(a)" }));
+        Conversación.setText("¿Cómo sueles iniciar una conversación?");
 
-        conversación.setText("¿Cómo sueles iniciar una conversación?");
+        conversacióntx.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Me resulta fácil", "Depende de la persona", "Prefiero que la otra persona empiece" }));
 
-        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Me resulta fácil", "Depende de la persona", "Prefiero que la otra persona empiece" }));
+        Comunicacion.setText("¿Qué tan importante es para ti la comunicación?");
 
-        jLabel4.setText("¿Qué tan importante es para ti la comunicación?");
+        comunicaciontx.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Muy importante", "Importante", "Poco importante" }));
 
-        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Muy importante", "Importante", "Poco importante" }));
+        relacion.setText("¿Cómo te consideras en una relación de amistad o pareja?");
 
-        jLabel5.setText("¿Cómo te consideras en una relación de amistad o pareja?");
+        Detallistatx.setText("Detallista");
+        Detallistatx.setToolTipText("");
 
-        jCheckBox1.setText("Detallista");
-        jCheckBox1.setToolTipText("");
+        Divertidotx.setText("Divertido(a)");
+        Divertidotx.addActionListener(this::DivertidotxActionPerformed);
 
-        Divertido.setText("Divertido(a)");
-        Divertido.addActionListener(this::DivertidoActionPerformed);
+        comprensivotx.setText("Comprensivo(a)");
 
-        jCheckBox3.setText("Comprensivo(a)");
+        Tranquilotx.setText("Tranquilo(a)");
 
-        jCheckBox4.setText("Tranquilo(a)");
-
-        jCheckBox5.setText("Espontáneo(a)");
+        Espontáneotx.setText("Espontáneo(a)");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -100,30 +94,26 @@ NivelSocial.setPaintLabels(true);
                         .addGap(63, 63, 63)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addComponent(conversación)
+                                .addComponent(Conversación)
                                 .addGap(31, 31, 31)
-                                .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, 142, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(conversacióntx, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addComponent(describirías)
+                                .addComponent(Comunicacion)
                                 .addGap(18, 18, 18)
-                                .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(comunicaciontx, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addComponent(jLabel4)
-                                .addGap(18, 18, 18)
-                                .addComponent(jComboBox3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addComponent(jLabel5)
+                                .addComponent(relacion)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jCheckBox3)
+                                    .addComponent(comprensivotx)
                                     .addGroup(jPanel2Layout.createSequentialGroup()
                                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(Divertido)
-                                            .addComponent(jCheckBox1))
+                                            .addComponent(Divertidotx)
+                                            .addComponent(Detallistatx))
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(jCheckBox4)
-                                            .addComponent(jCheckBox5))))))))
+                                            .addComponent(Tranquilotx)
+                                            .addComponent(Espontáneotx))))))))
                 .addContainerGap(224, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
@@ -133,29 +123,25 @@ NivelSocial.setPaintLabels(true);
                 .addComponent(lbSociabilidad)
                 .addGap(18, 18, 18)
                 .addComponent(NivelSocial, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(85, 85, 85)
+                .addGap(141, 141, 141)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(describirías)
-                    .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(Conversación)
+                    .addComponent(conversacióntx, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(34, 34, 34)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(conversación)
-                    .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(34, 34, 34)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel4)
-                    .addComponent(jComboBox3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(Comunicacion)
+                    .addComponent(comunicaciontx, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(32, 32, 32)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel5)
-                    .addComponent(jCheckBox1)
-                    .addComponent(jCheckBox4))
+                    .addComponent(relacion)
+                    .addComponent(Detallistatx)
+                    .addComponent(Tranquilotx))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(Divertido)
-                    .addComponent(jCheckBox5))
+                    .addComponent(Divertidotx)
+                    .addComponent(Espontáneotx))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jCheckBox3)
+                .addComponent(comprensivotx)
                 .addContainerGap(64, Short.MAX_VALUE))
         );
 
@@ -173,9 +159,9 @@ NivelSocial.setPaintLabels(true);
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void DivertidoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DivertidoActionPerformed
+    private void DivertidotxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DivertidotxActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_DivertidoActionPerformed
+    }//GEN-LAST:event_DivertidotxActionPerformed
 
     /**
      * @param args the command line arguments
@@ -203,20 +189,18 @@ NivelSocial.setPaintLabels(true);
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JCheckBox Divertido;
+    private javax.swing.JLabel Comunicacion;
+    private javax.swing.JLabel Conversación;
+    private javax.swing.JCheckBox Detallistatx;
+    private javax.swing.JCheckBox Divertidotx;
+    private javax.swing.JCheckBox Espontáneotx;
     private javax.swing.JSlider NivelSocial;
-    private javax.swing.JLabel conversación;
-    private javax.swing.JLabel describirías;
-    private javax.swing.JCheckBox jCheckBox1;
-    private javax.swing.JCheckBox jCheckBox3;
-    private javax.swing.JCheckBox jCheckBox4;
-    private javax.swing.JCheckBox jCheckBox5;
-    private javax.swing.JComboBox<String> jComboBox1;
-    private javax.swing.JComboBox<String> jComboBox2;
-    private javax.swing.JComboBox<String> jComboBox3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
+    private javax.swing.JCheckBox Tranquilotx;
+    private javax.swing.JCheckBox comprensivotx;
+    private javax.swing.JComboBox<String> comunicaciontx;
+    private javax.swing.JComboBox<String> conversacióntx;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JLabel lbSociabilidad;
+    private javax.swing.JLabel relacion;
     // End of variables declaration//GEN-END:variables
 }

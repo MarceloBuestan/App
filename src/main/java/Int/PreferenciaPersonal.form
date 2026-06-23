@@ -49,7 +49,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel2">
+        <Component class="javax.swing.JLabel" name="g&#xe9;neroMusical">
           <Properties>
             <Property name="text" type="java.lang.String" value="Favorito g&#xe9;nero musical"/>
           </Properties>
@@ -70,7 +70,7 @@
             <Property name="useNullLayout" type="boolean" value="false"/>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox1">
+            <Component class="javax.swing.JCheckBox" name="salsatx">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Salsa"/>
               </Properties>
@@ -80,7 +80,7 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox2">
+            <Component class="javax.swing.JCheckBox" name="clasicatx">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Cl&#xe1;sica"/>
               </Properties>
@@ -90,7 +90,7 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox3">
+            <Component class="javax.swing.JCheckBox" name="countrytx">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Country"/>
               </Properties>
@@ -100,7 +100,7 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox4">
+            <Component class="javax.swing.JCheckBox" name="electrtx">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Electr&#xf3;nica"/>
               </Properties>
@@ -110,7 +110,7 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox5">
+            <Component class="javax.swing.JCheckBox" name="hiphoptx">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Hip Hop"/>
               </Properties>
@@ -120,7 +120,7 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox6">
+            <Component class="javax.swing.JCheckBox" name="jazztx">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Jazz"/>
               </Properties>
@@ -130,7 +130,7 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox7">
+            <Component class="javax.swing.JCheckBox" name="poptx">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Pop"/>
               </Properties>
@@ -140,7 +140,7 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox8">
+            <Component class="javax.swing.JCheckBox" name="punktx">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Punk"/>
               </Properties>
@@ -150,7 +150,7 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox9">
+            <Component class="javax.swing.JCheckBox" name="raeggtx">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Raegget&#xf3;n"/>
               </Properties>
@@ -160,7 +160,7 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox10">
+            <Component class="javax.swing.JCheckBox" name="rocktx">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Rock"/>
               </Properties>
@@ -170,7 +170,7 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox11">
+            <Component class="javax.swing.JCheckBox" name="raptx">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Rap"/>
               </Properties>
@@ -180,7 +180,7 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox12">
+            <Component class="javax.swing.JCheckBox" name="traptx">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Trap"/>
               </Properties>
@@ -190,7 +190,7 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox13">
+            <Component class="javax.swing.JCheckBox" name="bachatatx">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Bachata"/>
               </Properties>
@@ -200,7 +200,7 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox14">
+            <Component class="javax.swing.JCheckBox" name="cumbiatx">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Cumbia"/>
               </Properties>
@@ -210,7 +210,7 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox15">
+            <Component class="javax.swing.JCheckBox" name="vallenatotx">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Vallenato"/>
               </Properties>
@@ -220,7 +220,7 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox16">
+            <Component class="javax.swing.JCheckBox" name="viejaescuelatx">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Vieja escuela"/>
               </Properties>
@@ -232,7 +232,7 @@
             </Component>
           </SubComponents>
         </Container>
-        <Component class="javax.swing.JLabel" name="jLabel3">
+        <Component class="javax.swing.JLabel" name="nocomida">
           <Properties>
             <Property name="text" type="java.lang.String" value="Comida que no le guste"/>
           </Properties>
@@ -242,7 +242,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel4">
+        <Component class="javax.swing.JLabel" name="comida">
           <Properties>
             <Property name="text" type="java.lang.String" value="Comida favorita"/>
           </Properties>
@@ -252,7 +252,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JTextField" name="jTextField2">
+        <Component class="javax.swing.JTextField" name="nocomidatx">
           <Properties>
             <Property name="text" type="java.lang.String" value="jTextField2"/>
           </Properties>
@@ -262,7 +262,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel5">
+        <Component class="javax.swing.JLabel" name="restriccion">
           <Properties>
             <Property name="text" type="java.lang.String" value="Restricci&#xf3;n alimentaria"/>
           </Properties>
@@ -272,7 +272,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JComboBox" name="jComboBox1">
+        <Component class="javax.swing.JComboBox" name="restricciontx">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
               <StringArray count="4">
@@ -292,7 +292,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel6">
+        <Component class="javax.swing.JLabel" name="actividad">
           <Properties>
             <Property name="text" type="java.lang.String" value="Nivel de actividad"/>
           </Properties>
@@ -302,7 +302,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JComboBox" name="jComboBox2">
+        <Component class="javax.swing.JComboBox" name="actividadtx">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
               <StringArray count="3">
@@ -321,7 +321,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel7">
+        <Component class="javax.swing.JLabel" name="Fuma">
           <Properties>
             <Property name="text" type="java.lang.String" value="&#xbf;Fuma?"/>
           </Properties>
@@ -331,7 +331,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JComboBox" name="jComboBox3">
+        <Component class="javax.swing.JComboBox" name="mascotastx">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
               <StringArray count="2">
@@ -349,7 +349,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel8">
+        <Component class="javax.swing.JLabel" name="alcohol">
           <Properties>
             <Property name="text" type="java.lang.String" value="&#xbf;Bebe alcohol?"/>
           </Properties>
@@ -359,7 +359,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JComboBox" name="jComboBox4">
+        <Component class="javax.swing.JComboBox" name="alcoholtx">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
               <StringArray count="3">
@@ -378,7 +378,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel9">
+        <Component class="javax.swing.JLabel" name="gustamascotas">
           <Properties>
             <Property name="text" type="java.lang.String" value="&#xbf;Le gusta las mascotas?"/>
           </Properties>
@@ -388,7 +388,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JComboBox" name="jComboBox5">
+        <Component class="javax.swing.JComboBox" name="fumatx">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
               <StringArray count="3">
@@ -407,7 +407,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel10">
+        <Component class="javax.swing.JLabel" name="mascota">
           <Properties>
             <Property name="text" type="java.lang.String" value="&#xbf;Tiene mascotas?"/>
           </Properties>
@@ -417,7 +417,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JTextField" name="jTextField3">
+        <Component class="javax.swing.JTextField" name="comidatx">
           <Properties>
             <Property name="text" type="java.lang.String" value="jTextField1"/>
           </Properties>
@@ -427,7 +427,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JTextField" name="jTextField1">
+        <Component class="javax.swing.JTextField" name="animalfavoritotx">
           <Properties>
             <Property name="text" type="java.lang.String" value="jTextField1"/>
           </Properties>
@@ -437,7 +437,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel11">
+        <Component class="javax.swing.JLabel" name="animalfavorito">
           <Properties>
             <Property name="text" type="java.lang.String" value="Animal favorito"/>
           </Properties>
@@ -447,7 +447,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JComboBox" name="jComboBox6">
+        <Component class="javax.swing.JComboBox" name="gustamascotastx">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
               <StringArray count="2">
@@ -465,7 +465,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Container class="javax.swing.JPanel" name="jPanel3">
+        <Container class="javax.swing.JPanel" name="tiposdeactividades">
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="560" y="350" width="210" height="150"/>
@@ -476,7 +476,7 @@
             <Property name="useNullLayout" type="boolean" value="false"/>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox17">
+            <Component class="javax.swing.JCheckBox" name="gymtx">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Gym"/>
               </Properties>
@@ -486,7 +486,7 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox18">
+            <Component class="javax.swing.JCheckBox" name="viajartx">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Viajar"/>
               </Properties>
@@ -496,7 +496,7 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox19">
+            <Component class="javax.swing.JCheckBox" name="gamestx">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Videojuegos"/>
               </Properties>
@@ -506,7 +506,7 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox20">
+            <Component class="javax.swing.JCheckBox" name="deportestx">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Deportes"/>
               </Properties>
@@ -516,7 +516,7 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox21">
+            <Component class="javax.swing.JCheckBox" name="artetx">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Arte"/>
               </Properties>
@@ -526,7 +526,7 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox22">
+            <Component class="javax.swing.JCheckBox" name="tecntx">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Tecnolog&#xed;a"/>
               </Properties>
@@ -536,7 +536,7 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox23">
+            <Component class="javax.swing.JCheckBox" name="musictx">
               <Properties>
                 <Property name="text" type="java.lang.String" value="M&#xfa;sica"/>
               </Properties>
@@ -546,7 +546,7 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox24">
+            <Component class="javax.swing.JCheckBox" name="estudiotx">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Estudio"/>
               </Properties>
@@ -556,7 +556,7 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox25">
+            <Component class="javax.swing.JCheckBox" name="trabajotx">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Trabajo"/>
               </Properties>
@@ -566,7 +566,7 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox26">
+            <Component class="javax.swing.JCheckBox" name="peliculastx">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Pel&#xed;culas"/>
               </Properties>
@@ -576,7 +576,7 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox27">
+            <Component class="javax.swing.JCheckBox" name="seriestx">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Series"/>
               </Properties>
@@ -586,7 +586,7 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox28">
+            <Component class="javax.swing.JCheckBox" name="cinetx">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Cine"/>
               </Properties>
@@ -598,7 +598,7 @@
             </Component>
           </SubComponents>
         </Container>
-        <Component class="javax.swing.JLabel" name="jLabel12">
+        <Component class="javax.swing.JLabel" name="actividades">
           <Properties>
             <Property name="text" type="java.lang.String" value="&#xbf;Qu&#xe9; actividades te interesan?"/>
           </Properties>

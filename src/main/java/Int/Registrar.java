@@ -33,13 +33,13 @@ public class Registrar extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         txnombre = new javax.swing.JTextField();
         txapellido = new javax.swing.JTextField();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
+        apellido = new javax.swing.JLabel();
+        nombre = new javax.swing.JLabel();
         txcorreo = new javax.swing.JTextField();
-        jLabel4 = new javax.swing.JLabel();
+        correo = new javax.swing.JLabel();
         txpss = new javax.swing.JTextField();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
+        contraseña = new javax.swing.JLabel();
+        celular = new javax.swing.JLabel();
         txcelular = new javax.swing.JTextField();
         F1 = new javax.swing.JButton();
 
@@ -52,22 +52,22 @@ public class Registrar extends javax.swing.JFrame {
         jPanel1.add(txnombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 105, 215, -1));
         jPanel1.add(txapellido, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 201, 215, -1));
 
-        jLabel3.setText("Apellido:");
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 179, -1, -1));
+        apellido.setText("Apellido:");
+        jPanel1.add(apellido, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 179, -1, -1));
 
-        jLabel2.setText("Nombre:");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 83, -1, -1));
+        nombre.setText("Nombre:");
+        jPanel1.add(nombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 83, -1, -1));
         jPanel1.add(txcorreo, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 297, 215, -1));
 
-        jLabel4.setText("Correo:");
-        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 275, -1, -1));
+        correo.setText("Correo:");
+        jPanel1.add(correo, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 275, -1, -1));
         jPanel1.add(txpss, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 393, 215, -1));
 
-        jLabel5.setText("Contraseña:");
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 371, -1, -1));
+        contraseña.setText("Contraseña:");
+        jPanel1.add(contraseña, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 371, -1, -1));
 
-        jLabel6.setText("Celular:");
-        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 467, 63, -1));
+        celular.setText("Celular:");
+        jPanel1.add(celular, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 467, 63, -1));
         jPanel1.add(txcelular, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 489, 215, -1));
 
         F1.setText("¡Listo!");
@@ -125,13 +125,13 @@ public class Registrar extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton F1;
+    private javax.swing.JLabel apellido;
+    private javax.swing.JLabel celular;
+    private javax.swing.JLabel contraseña;
+    private javax.swing.JLabel correo;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JLabel nombre;
     private javax.swing.JTextField txapellido;
     private javax.swing.JTextField txcelular;
     private javax.swing.JTextField txcorreo;

@@ -29,99 +29,99 @@ public class ReferenciaSexual extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        jComboBox1 = new javax.swing.JComboBox<>();
-        jLabel2 = new javax.swing.JLabel();
-        jSlider1 = new javax.swing.JSlider();
-        jPanel4 = new javax.swing.JPanel();
-        jComboBox4 = new javax.swing.JComboBox<>();
-        jPanel3 = new javax.swing.JPanel();
-        jLabel3 = new javax.swing.JLabel();
-        jComboBox2 = new javax.swing.JComboBox<>();
-        jLabel4 = new javax.swing.JLabel();
-        jComboBox3 = new javax.swing.JComboBox<>();
-        jPanel5 = new javax.swing.JPanel();
-        jComboBox5 = new javax.swing.JComboBox<>();
-        jPanel2 = new javax.swing.JPanel();
-        jCheckBox1 = new javax.swing.JCheckBox();
-        jCheckBox2 = new javax.swing.JCheckBox();
-        jCheckBox3 = new javax.swing.JCheckBox();
-        jCheckBox4 = new javax.swing.JCheckBox();
+        tiporelacion = new javax.swing.JLabel();
+        tiporelaciontx = new javax.swing.JComboBox<>();
+        edadpref = new javax.swing.JLabel();
+        edadpreftx = new javax.swing.JSlider();
+        PreferenciaPersonalidad = new javax.swing.JPanel();
+        PrefPersonalidadtx = new javax.swing.JComboBox<>();
+        preferenciasFísicas = new javax.swing.JPanel();
+        complex = new javax.swing.JLabel();
+        estaturatx = new javax.swing.JComboBox<>();
+        estatura = new javax.swing.JLabel();
+        complextx = new javax.swing.JComboBox<>();
+        buscarRelacion = new javax.swing.JPanel();
+        buscarrelaciontx = new javax.swing.JComboBox<>();
+        Géneroideal = new javax.swing.JPanel();
+        noespecificartx = new javax.swing.JCheckBox();
+        hombretx = new javax.swing.JCheckBox();
+        mujertx = new javax.swing.JCheckBox();
+        ambostx = new javax.swing.JCheckBox();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setText("Tipo de relación");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 90, -1, -1));
+        tiporelacion.setText("Tipo de relación");
+        jPanel1.add(tiporelacion, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 90, -1, -1));
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seria", "Casual", "Amistad", "Sin compromiso", "Indefinido" }));
-        jComboBox1.addActionListener(this::jComboBox1ActionPerformed);
-        jPanel1.add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 90, 70, -1));
+        tiporelaciontx.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seria", "Casual", "Amistad", "Sin compromiso", "Indefinido" }));
+        tiporelaciontx.addActionListener(this::tiporelaciontxActionPerformed);
+        jPanel1.add(tiporelaciontx, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 90, 70, -1));
 
-        jLabel2.setText("Rango de edad preferido");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 160, -1, -1));
-        jPanel1.add(jSlider1, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 160, -1, -1));
+        edadpref.setText("Rango de edad preferido");
+        jPanel1.add(edadpref, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 160, -1, -1));
+        jPanel1.add(edadpreftx, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 160, -1, -1));
 
-        jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder("Preferencia de personalidad"));
-        jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        PreferenciaPersonalidad.setBorder(javax.swing.BorderFactory.createTitledBorder("Preferencia de personalidad"));
+        PreferenciaPersonalidad.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Extrovertido / Introvertido", "Divertido / Serio", "Cariñoso / Reservado", "Ambicioso / Relajado" }));
-        jPanel4.add(jComboBox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, 180, -1));
+        PrefPersonalidadtx.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Extrovertido / Introvertido", "Divertido / Serio", "Cariñoso / Reservado", "Ambicioso / Relajado" }));
+        PreferenciaPersonalidad.add(PrefPersonalidadtx, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, 180, -1));
 
-        jPanel1.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 220, 200, 50));
+        jPanel1.add(PreferenciaPersonalidad, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 220, 200, 50));
 
-        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder("Preferencias Físicas"));
-        jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        preferenciasFísicas.setBorder(javax.swing.BorderFactory.createTitledBorder("Preferencias Físicas"));
+        preferenciasFísicas.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel3.setText("Complexión");
-        jPanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, -1, -1));
+        complex.setText("Complexión");
+        preferenciasFísicas.add(complex, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, -1, -1));
 
-        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Alto", "Bajo", "Misma estatura" }));
-        jPanel3.add(jComboBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 30, 70, -1));
+        estaturatx.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Alto", "Bajo", "Misma estatura" }));
+        preferenciasFísicas.add(estaturatx, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 40, 70, -1));
 
-        jLabel4.setText("Estatura");
-        jPanel3.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, -1, -1));
+        estatura.setText("Estatura ideal");
+        preferenciasFísicas.add(estatura, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, -1, -1));
 
-        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Delgado/a", "Atlético/a", "Normal", "Robusto/a" }));
-        jPanel3.add(jComboBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 80, -1, -1));
+        complextx.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Delgado/a", "Atlético/a", "Normal", "Robusto/a" }));
+        preferenciasFísicas.add(complextx, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 80, -1, -1));
 
-        jPanel1.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 220, 240, 120));
+        jPanel1.add(preferenciasFísicas, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 220, 240, 120));
 
-        jPanel5.setBorder(javax.swing.BorderFactory.createTitledBorder("Describe que buscas en una relación"));
-        jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        buscarRelacion.setBorder(javax.swing.BorderFactory.createTitledBorder("Describe que buscas en una relación"));
+        buscarRelacion.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jComboBox5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Extrovertido / Introvertido", "Divertido / Serio", "Cariñoso / Reservado", "Ambicioso / Relajado" }));
-        jPanel5.add(jComboBox5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, 180, -1));
+        buscarrelaciontx.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Extrovertido / Introvertido", "Divertido / Serio", "Cariñoso / Reservado", "Ambicioso / Relajado" }));
+        buscarRelacion.add(buscarrelaciontx, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, 180, -1));
 
-        jPanel1.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 350, 290, 50));
+        jPanel1.add(buscarRelacion, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 350, 290, 50));
 
-        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("Género de preferencia"));
-        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        Géneroideal.setBorder(javax.swing.BorderFactory.createTitledBorder("Género de preferencia"));
+        Géneroideal.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jCheckBox1.setText("No especificar");
-        jPanel2.add(jCheckBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 80, -1, -1));
+        noespecificartx.setText("No especificar");
+        Géneroideal.add(noespecificartx, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 80, -1, -1));
 
-        jCheckBox2.setText("Hombre");
-        jPanel2.add(jCheckBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, -1, -1));
+        hombretx.setText("Hombre");
+        Géneroideal.add(hombretx, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, -1, -1));
 
-        jCheckBox3.setText("Mujer");
-        jPanel2.add(jCheckBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, -1, -1));
+        mujertx.setText("Mujer");
+        Géneroideal.add(mujertx, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, -1, -1));
 
-        jCheckBox4.setText("Ambos");
-        jPanel2.add(jCheckBox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 60, -1, -1));
+        ambostx.setText("Ambos");
+        Géneroideal.add(ambostx, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 60, -1, -1));
 
-        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 280, 150, 120));
+        jPanel1.add(Géneroideal, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 280, 150, 120));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 800, 530));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
+    private void tiporelaciontxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tiporelaciontxActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jComboBox1ActionPerformed
+    }//GEN-LAST:event_tiporelaciontxActionPerformed
 
     /**
      * @param args the command line arguments
@@ -149,24 +149,24 @@ public class ReferenciaSexual extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JCheckBox jCheckBox1;
-    private javax.swing.JCheckBox jCheckBox2;
-    private javax.swing.JCheckBox jCheckBox3;
-    private javax.swing.JCheckBox jCheckBox4;
-    private javax.swing.JComboBox<String> jComboBox1;
-    private javax.swing.JComboBox<String> jComboBox2;
-    private javax.swing.JComboBox<String> jComboBox3;
-    private javax.swing.JComboBox<String> jComboBox4;
-    private javax.swing.JComboBox<String> jComboBox5;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
+    private javax.swing.JPanel Géneroideal;
+    private javax.swing.JComboBox<String> PrefPersonalidadtx;
+    private javax.swing.JPanel PreferenciaPersonalidad;
+    private javax.swing.JCheckBox ambostx;
+    private javax.swing.JPanel buscarRelacion;
+    private javax.swing.JComboBox<String> buscarrelaciontx;
+    private javax.swing.JLabel complex;
+    private javax.swing.JComboBox<String> complextx;
+    private javax.swing.JLabel edadpref;
+    private javax.swing.JSlider edadpreftx;
+    private javax.swing.JLabel estatura;
+    private javax.swing.JComboBox<String> estaturatx;
+    private javax.swing.JCheckBox hombretx;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel2;
-    private javax.swing.JPanel jPanel3;
-    private javax.swing.JPanel jPanel4;
-    private javax.swing.JPanel jPanel5;
-    private javax.swing.JSlider jSlider1;
+    private javax.swing.JCheckBox mujertx;
+    private javax.swing.JCheckBox noespecificartx;
+    private javax.swing.JPanel preferenciasFísicas;
+    private javax.swing.JLabel tiporelacion;
+    private javax.swing.JComboBox<String> tiporelaciontx;
     // End of variables declaration//GEN-END:variables
 }
