@@ -1,4 +1,6 @@
 Int\Pantalla$1.class
+Int\ReferenciaSexual.class
+Int\PreferenciaPersonal.class
 Int\NivelSocial.class
 Int\Pantalla.class
 Int\PerfilUsuario.class

@@ -36,11 +36,11 @@ NivelSocial.setPaintLabels(true);
     private void initComponents() {
 
         jPanel2 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
+        lbSociabilidad = new javax.swing.JLabel();
+        describirías = new javax.swing.JLabel();
         NivelSocial = new javax.swing.JSlider();
         jComboBox1 = new javax.swing.JComboBox<>();
-        jLabel3 = new javax.swing.JLabel();
+        conversación = new javax.swing.JLabel();
         jComboBox2 = new javax.swing.JComboBox<>();
         jLabel4 = new javax.swing.JLabel();
         jComboBox3 = new javax.swing.JComboBox<>();
@@ -53,16 +53,16 @@ NivelSocial.setPaintLabels(true);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setText("Nivel de sociabilidad");
+        lbSociabilidad.setText("Nivel de sociabilidad");
 
-        jLabel2.setText("¿Cómo te describirías?");
+        describirías.setText("¿Cómo te describirías?");
 
         NivelSocial.setMaximum(5);
         NivelSocial.setMinimum(1);
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Extrovertido(a)", "Introvertido(a)", "Ambivertido(a)" }));
 
-        jLabel3.setText("¿Cómo sueles iniciar una conversación?");
+        conversación.setText("¿Cómo sueles iniciar una conversación?");
 
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Me resulta fácil", "Depende de la persona", "Prefiero que la otra persona empiece" }));
 
@@ -92,7 +92,7 @@ NivelSocial.setPaintLabels(true);
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(74, 74, 74)
-                        .addComponent(jLabel1))
+                        .addComponent(lbSociabilidad))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(123, 123, 123)
                         .addComponent(NivelSocial, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -100,11 +100,11 @@ NivelSocial.setPaintLabels(true);
                         .addGap(63, 63, 63)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addComponent(jLabel3)
+                                .addComponent(conversación)
                                 .addGap(31, 31, 31)
-                                .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, 142, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addComponent(jLabel2)
+                                .addComponent(describirías)
                                 .addGap(18, 18, 18)
                                 .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(jPanel2Layout.createSequentialGroup()
@@ -130,16 +130,16 @@ NivelSocial.setPaintLabels(true);
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(89, 89, 89)
-                .addComponent(jLabel1)
+                .addComponent(lbSociabilidad)
                 .addGap(18, 18, 18)
                 .addComponent(NivelSocial, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(85, 85, 85)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel2)
+                    .addComponent(describirías)
                     .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(34, 34, 34)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel3)
+                    .addComponent(conversación)
                     .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(34, 34, 34)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -205,6 +205,8 @@ NivelSocial.setPaintLabels(true);
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JCheckBox Divertido;
     private javax.swing.JSlider NivelSocial;
+    private javax.swing.JLabel conversación;
+    private javax.swing.JLabel describirías;
     private javax.swing.JCheckBox jCheckBox1;
     private javax.swing.JCheckBox jCheckBox3;
     private javax.swing.JCheckBox jCheckBox4;
@@ -212,11 +214,9 @@ NivelSocial.setPaintLabels(true);
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JComboBox<String> jComboBox2;
     private javax.swing.JComboBox<String> jComboBox3;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JPanel jPanel2;
+    private javax.swing.JLabel lbSociabilidad;
     // End of variables declaration//GEN-END:variables
 }

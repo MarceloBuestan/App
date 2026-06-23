@@ -43,13 +43,13 @@ public class PerfilUsuario extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         discapacidadtx = new javax.swing.JComboBox<>();
         jLabel3 = new javax.swing.JLabel();
-        jComboBox1 = new javax.swing.JComboBox<>();
+        SituacionLaboraltx = new javax.swing.JComboBox<>();
         jLabel4 = new javax.swing.JLabel();
-        jComboBox2 = new javax.swing.JComboBox<>();
+        Estadotx = new javax.swing.JComboBox<>();
         jLabel5 = new javax.swing.JLabel();
-        jComboBox3 = new javax.swing.JComboBox<>();
+        Hijostx = new javax.swing.JComboBox<>();
         jLabel6 = new javax.swing.JLabel();
-        jComboBox4 = new javax.swing.JComboBox<>();
+        Carreratx = new javax.swing.JComboBox<>();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -102,26 +102,26 @@ public class PerfilUsuario extends javax.swing.JFrame {
         jLabel3.setText("Situación laboral");
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 430, -1, -1));
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Solo estudio", "Estudio y trabajo", "Trabajo a tiempo completo", "Trabajo a medio tiempo" }));
-        jPanel1.add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 460, 110, -1));
+        SituacionLaboraltx.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Solo estudio", "Estudio y trabajo", "Trabajo a tiempo completo", "Trabajo a medio tiempo" }));
+        jPanel1.add(SituacionLaboraltx, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 460, 110, -1));
 
         jLabel4.setText("Estado civil");
         jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 120, -1, -1));
 
-        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Soltero", "Casado", "Divorciado" }));
-        jPanel1.add(jComboBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 140, -1, -1));
+        Estadotx.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Soltero", "Casado", "Divorciado" }));
+        jPanel1.add(Estadotx, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 140, -1, -1));
 
         jLabel5.setText("¿Tiene hijos?");
         jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 170, -1, -1));
 
-        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Si", "No" }));
-        jPanel1.add(jComboBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 190, -1, -1));
+        Hijostx.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Si", "No" }));
+        jPanel1.add(Hijostx, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 190, -1, -1));
 
         jLabel6.setText("Carrera");
         jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 240, -1, -1));
 
-        jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-        jPanel1.add(jComboBox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 270, -1, -1));
+        Carreratx.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Arquitectura", "Ciencia de Datos e IA", "Ingeniería Civil", "Ingeniería Industrial", "Mecatrónica", "Sistema de Información", "Software", "TI", "Telemática" }));
+        jPanel1.add(Carreratx, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 270, 100, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -184,6 +184,10 @@ public class PerfilUsuario extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel Altura;
+    private javax.swing.JComboBox<String> Carreratx;
+    private javax.swing.JComboBox<String> Estadotx;
+    private javax.swing.JComboBox<String> Hijostx;
+    private javax.swing.JComboBox<String> SituacionLaboraltx;
     private javax.swing.JLabel Ubicación1;
     private javax.swing.JTextField Ubicacióntx;
     private javax.swing.JTextField alturatx;
@@ -192,10 +196,6 @@ public class PerfilUsuario extends javax.swing.JFrame {
     private javax.swing.JTextField edadtx;
     private javax.swing.JLabel género;
     private javax.swing.JTextField génerotx;
-    private javax.swing.JComboBox<String> jComboBox1;
-    private javax.swing.JComboBox<String> jComboBox2;
-    private javax.swing.JComboBox<String> jComboBox3;
-    private javax.swing.JComboBox<String> jComboBox4;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
